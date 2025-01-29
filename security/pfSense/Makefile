@@ -89,8 +89,8 @@ USE_PHP=	bz2 bcmath ctype curl dom filter gettext gmp intl json mbstring \
 NO_BUILD=	yes
 
 CONFLICTS=	pfSense-vmware-[0-9]*
-
 USE_GITLAB=	yes
+USE_GITLAB=	no
 GL_SITE=	https://gitlab.netgate.com
 GL_ACCOUNT=	pfSense
 GL_PROJECT=	${PFSENSE_SRC_REPO}
