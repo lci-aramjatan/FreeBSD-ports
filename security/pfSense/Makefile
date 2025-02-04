@@ -89,7 +89,7 @@ USE_PHP=	bz2 bcmath ctype curl dom filter gettext gmp intl json mbstring \
 NO_BUILD=	yes
 
 CONFLICTS=	pfSense-vmware-[0-9]*
-USE_GITLAB=	yes
+USE_GITHUB=	yes
 USE_GITLAB=	no
 GH_ACCOUNT=	lci-aramjatan
 GL_PROJECT=	${PFSENSE_SRC_REPO}
